@@ -1,12 +1,12 @@
 import React from 'react'
-import HighlightIcon from '@material-ui/icons/Highlight'
+import NoteAddIcon from '@material-ui/icons/NoteAdd'
 
 function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon />
-        Keeper
+        <NoteAddIcon style={{ fontSize: '48px' }}/>
+        <span style={{ marginLeft: '1rem' }}>Note</span>
       </h1>
     </header>
   )
