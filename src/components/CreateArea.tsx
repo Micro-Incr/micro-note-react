@@ -5,10 +5,10 @@ import Zoom from '@material-ui/core/Zoom'
 import Note from '../entity/Note'
 
 interface CreateAreaProps {
-
+  onAdd: (note: Note) => void
 }
 
-function CreateArea(props: any) {
+function CreateArea(props: CreateAreaProps) {
   const [isExpanded, setExpanded] = useState<boolean>(false)
 
   const createNoteRef = useRef<HTMLFormElement>(null)
