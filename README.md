@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# Micro Note Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and the main purpose
+is to create an reusable micro note application.
 
-## Available Scripts
+___
 
-In the project directory, you can run:
+# Technologies Used 💻
 
-### `yarn start`
+1. [React](https://fr.reactjs.org/) (React Frontend Library)
+2. [Typescript](https://www.typescriptlang.org/) (Typescript programming language)
+3. [Redux](https://redux.js.org/) (Redux State Management)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+***Pre-requirement***
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. [NodeJS](https://nodejs.org/en/)
+2. [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/) - Package management
 
-### `yarn test`
+___
+***To Get Started Use:***
+To install all the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn
+```
 
-### `yarn build`
+or
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To bootstrap the app:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn start
+```
 
-### `yarn eject`
+or
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To test the app:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn test
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+or
 
-## Learn More
+```
+npm test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For production:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn build
+```
+
+or
+
+```
+npm run build
+```
+
+___
+
+### TODO
+
+- [x] MVP
+- [x] Update readme
+- [x] CI/CD
+- [ ] Add redux
+- [ ] Add drag and drop
+
+## Contributers
