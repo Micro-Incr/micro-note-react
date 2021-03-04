@@ -1,7 +1,7 @@
 # Micro Note Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and the main purpose
-is to create an reusable micro note application.
+is to create a reusable micro note application.
 
 ___
 
